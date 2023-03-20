@@ -1,14 +1,13 @@
+O Unix é um sistema operacional que inspirou muitos outros sistemas, como macOS, Linux, Solaris etc.;
 
+O Unix é composto basicamente de Shell, Kernel e programas;
 
-    O Unix é um sistema operacional que inspirou muitos outros sistemas, como macOS, Linux, Solaris etc.;
+A estrutura de diretórios do Unix é organizada no formato de uma árvore invertida, hierarquicamente, iniciando pelo root (raiz);
 
-    O Unix é composto basicamente de Shell, Kernel e programas;
+Tudo no Unix é um arquivo ou um processo;
 
-    A estrutura de diretórios do Unix é organizada no formato de uma árvore invertida, hierarquicamente, iniciando pelo root (raiz);
+O terminal é seu principal aliado para ter produtividade em um ambiente Unix.
 
-    Tudo no Unix é um arquivo ou um processo;
-
-    O terminal é seu principal aliado para ter produtividade em um ambiente Unix.
 
 Um bom exercício para praticar os comandos aprendidos até agora é descrever, mentalmente, o que cada comando faz. Não se preocupe, pois a seguir há uma breve explicação sobre eles. Consulte-a sempre que sentir necessidade.
 
