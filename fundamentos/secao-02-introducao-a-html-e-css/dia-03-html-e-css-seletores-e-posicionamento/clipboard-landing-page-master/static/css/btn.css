@@ -1,0 +1,17 @@
+.btn {
+	text-decoration: none;
+	color: white;
+	padding: .8rem 1.5rem;
+	border-radius: 30px;
+
+
+}
+
+.btn-green {
+	background-color: hsl(171, 66%, 44%);
+
+}
+
+.btn-blue {
+	background-color: hsl(233, 100%, 69%);
+}
