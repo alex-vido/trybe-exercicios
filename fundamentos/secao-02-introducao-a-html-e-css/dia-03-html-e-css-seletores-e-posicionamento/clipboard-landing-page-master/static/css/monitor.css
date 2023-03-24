@@ -1,0 +1,14 @@
+.monitor {
+	display: flex;
+	margin-bottom: 4rem;
+	margin-top: 4rem;
+}
+
+
+
+.monitor-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 5rem;
+}
