@@ -24,7 +24,28 @@ main::before {
 	background-image: url(../images/image-devices.png);
 	background-repeat: no-repeat;
 	height: 550px;
-	padding: 2rem;
-	margin-top: 2rem	;
+	margin-top: 2rem;
 	width: 900px;
  }
+
+ .cps-img {
+		background-repeat: no-repeat;
+  	display: flex;
+    height: 50px;
+    background-position-x: center;
+    background-position-y: center;
+		margin-bottom: 2rem;
+}
+
+.create-img {
+	 background-image: url(../images/icon-blacklist.svg);
+}
+
+.plain-img {
+	background-image: url(../images/icon-text.svg);
+}
+
+.sneak-img {
+	background-image: url(../images/icon-preview.svg);
+
+}
