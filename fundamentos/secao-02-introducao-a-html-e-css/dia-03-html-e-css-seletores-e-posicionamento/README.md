@@ -32,7 +32,7 @@ Adicione uma lista não ordenada com, pelo menos, 3 características que você g
 No ‘style.css’, adicione a propriedade ‘list-style: none’ para ambas as listas.
 
 
-### Exercicio 03
+### Exercicio 04
 
 Estilize as divs para que, ao passar o cursor por cima das mesmas, elas ganhem uma borda.
 Faça cada div ter uma cor de fundo própria.
