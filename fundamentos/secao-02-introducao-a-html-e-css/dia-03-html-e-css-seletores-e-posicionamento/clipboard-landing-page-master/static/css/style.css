@@ -1,3 +1,10 @@
+:root {
+	--strong-cyan: hsl(171, 66%, 44%);
+	--light-blue: hsl(233, 100%, 69%);
+	--dark-grayish-blue: hsl(210, 10%, 33%);
+	--grayish-blue: hsl(201, 11%, 66%);
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -13,7 +20,7 @@ h2 {
 }
 
 .title {
-	color: hsl(210, 10%, 33%);
+	color: var(--dark-grayish-blue);
 	margin-bottom: .8rem;
 }
 
@@ -31,6 +38,6 @@ h2 {
 }
 
 p {
-	color: hsl(201, 11%, 66%);
+	color: var(--grayish-blue);
 	margin-bottom: 2rem;
 }

@@ -8,10 +8,10 @@
 }
 
 .btn-green {
-	background-color: hsl(171, 66%, 44%);
-	margin: 0.8rem;
+	background-color: var(--strong-cyan);
+	margin-right: 0.8rem;
 }
 
 .btn-blue {
-	background-color: hsl(233, 100%, 69%);
+	background-color: var(--light-blue);
 }
