@@ -13,11 +13,9 @@ main::before {
 .monitor-img {
 	background-image: url(../images/image-computer.png);
 	background-repeat: no-repeat;
-	content: "";
 	margin-left: 1rem;
-	padding-top: 500px;
-	padding-right: 600px;
-	width: 300px;
+	height: 600px;
+	width: 1100px;
 }
 
 .clipboard-img {
