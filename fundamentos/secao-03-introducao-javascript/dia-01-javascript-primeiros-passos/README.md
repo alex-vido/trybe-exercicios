@@ -35,3 +35,32 @@ Se a nota for menor que 80 e maior ou igual a 60, imprima “Você está na noss
 Se a nota for menor que 60, imprima “Infelizmente, você reprovou.”.
 Crie uma estrutura condicional utilizando if, else if e else para criar o seu algoritmo e os operadores lógicos que se aplicam a cada situação.
 Altere o valor da nota para verificar se as condições que você implementou funcionam.
+
+## Para fixar 4
+
+Crie uma variável chamada “currentHour” que receba um número entre 4 e 24, conforme sua escolha, para representar as horas do dia.
+
+Crie uma variável chamada “message” que inicialmente seja uma string vazia.
+
+Implemente as seguintes condicionais:
+
+Se o horário for maior ou igual a 22, insira “Não deveríamos comer nada, é hora de dormir” na variável “message”.
+
+Se o horário for maior ou igual a 18 e menor que 22, insira “Rango da noite, vamos jantar :D” na variável “message”.
+
+Se o horário for maior ou igual a 14 e menor que 18, insira “Vamos fazer um bolo pro café da tarde?” na variável “message”.
+
+Se o horário for maior ou igual a 11 e menor que 14, insira “Hora do almoço!!!” na variável “message”.
+
+Se o horário estiver entre 4 e 11, insira “Hmmm, cheiro de café recém-passado” na variável “message”.
+
+Agora, imprima a variável message fora das suas condições
+
+## Para fixar 5
+Crie uma variável chamada “weekDay” que receba a string “quarta-feira”.
+
+Utilizando if/else, implemente as seguintes condicionais:
+
+Se a variável “weekDay” for “segunda-feira”, “terça-feira”, “quarta-feira”, “quinta-feira” ou “sexta-feira”, imprima “Oba, mais um dia de aprendizado na Trybe >:D”.
+
+Se a variável for algum dia de fim de semana, imprima “FINALMENTE, descanso merecido! UwU!”.
