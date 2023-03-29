@@ -64,3 +64,11 @@ Utilizando if/else, implemente as seguintes condicionais:
 Se a variável “weekDay” for “segunda-feira”, “terça-feira”, “quarta-feira”, “quinta-feira” ou “sexta-feira”, imprima “Oba, mais um dia de aprendizado na Trybe >:D”.
 
 Se a variável for algum dia de fim de semana, imprima “FINALMENTE, descanso merecido! UwU!”.
+
+## Para fixar 6
+Crie uma variável para armazenar o status da pessoa candidata em um processo seletivo. As possibilidades são: 'aprovada', 'lista' ou 'reprovada'.
+Crie uma estrutura condicional com o switch/case para imprimir as seguintes mensagens:
+Caso 'aprovada', imprima “Parabéns, você está no grupo de pessoas aprovadas!”.
+Caso 'lista', imprima “Você está na nossa lista de espera.”.
+Caso 'reprovada', imprima “Infelizmente, você reprovou.”.
+Caso default, imprima a mensagem “Informação incorreta.”.
