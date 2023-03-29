@@ -46,13 +46,19 @@ Com base nessas informações, crie um algoritmo que imprima na tela o fatorial 
 ## Exercicio 3
 
 Utilize a estrutura de repetição for para desenvolver um algoritmo que seja capaz de inverter uma palavra, como a palavra “banana” para “ananab”. Utilize a string abaixo como exemplo. Depois, troque-a por outras para verificar se seu algoritmo está funcionando corretamente.
-Copiar
+
+``
 let word = 'tryber';
+``
+
+## Exercicio 4
+
 Considere o array de strings abaixo:
 
 ``
 let array = ['java', 'javascript', 'python', 'html', 'css'];
 ``
+
 
 Utilize a estrutura de repetição for para escrever dois algoritmos: um que imprima no console a maior palavra desse array e outro que imprima a menor. Considere o número de caracteres de cada palavra.
 
