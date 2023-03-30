@@ -21,10 +21,8 @@ function removeCliente(cliente) {
 function validaCliente(cliente) {
   if (typeof cliente === 'string') {
     return true;
-  } else {
-    return false
-    ;
-  }
+  } 
+  return false;
 }
 
 function localizaCliente(cliente) {
