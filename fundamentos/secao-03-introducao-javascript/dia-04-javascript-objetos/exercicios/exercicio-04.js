@@ -1,18 +1,20 @@
 const converteAlgarismosRomanos = (str) => {
   let n = 0;
   const numerosRomanos = {'i': 1, 'v': 5, 'x': 10, 'l': 50, 'c': 100, 'd': 500, 'm': 1000};
-  for (let i = 1; i < str.length; i += 2) {
-    if(numerosRomanos[str[i]] > numerosRomanos[str[i - 1]]) {
-      n += numerosRomanos[str[i]] - numerosRomanos[str[i - 1]];
-      i += 1;
-    } else {
-      n += numerosRomanos[str[i]] + numerosRomanos[str[i - 1]];
+  for (let i = 0; i < str.length; i += 2) {
+    if(numerosRomanos[str[i + 1]] > numerosRomanos[str[i]]) {
+      n += numerosRomanos[str[i + 1]] - numerosRomanos[str[i]];
+    } else if (typeof numerosRomanos[str[i + 1]] === 'undefined') {
+      n += numerosRomanos[str[i]];
+    }
+    else {
+      n += numerosRomanos[str[i + 1]] + numerosRomanos[str[i]];
     }
   }
   return n
 }
 
-console.log(converteAlgarismosRomanos('mmxxiv'));
+console.log(converteAlgarismosRomanos('mmxxiii'));
 
 
 // Exercício 02
