@@ -1,21 +1,18 @@
 const converteAlgarismosRomanos = (str) => {
   let n = 0;
-  for (let i = 1; i <= str.length; i += 1) {
-    const numerosRomanos = [
-      { name: 'I', value: 1 }, { name: 'IV', value: 4 }, { name: 'V', value: 5 },
-      { name: 'IX', value: 9 }, { name: 'X', value: 10 }, { name: 'XL', value: 40 },
-      { name: 'L', value: 50 }, { name: 'XC', value: 90 }, { name: 'C', value: 100 
-      }, { name: 'CD', value: 400 }, { name: 'D', value: 500 }, 
-      { name: 'CM', value: 900 }, { name: 'M', value: 1000}
-    ]
-    if (Object.values(numerosRomanos[str[i - 1]]) < Object.values(numerosRomanos[str[i]])) {
-      n += (Object.values(numerosRomanos[str[i - 1]]).value + Object.values(numerosRomanos[str[i]].value));
+  const numerosRomanos = {'i': 1, 'v': 5, 'x': 10, 'l': 50, 'c': 100, 'd': 500, 'm': 1000};
+  for (let i = 1; i < str.length; i += 2) {
+    if(numerosRomanos[str[i]] > numerosRomanos[str[i - 1]]) {
+      n += numerosRomanos[str[i]] - numerosRomanos[str[i - 1]];
+      i += 1;
+    } else {
+      n += numerosRomanos[str[i]] + numerosRomanos[str[i - 1]];
     }
   }
   return n
 }
 
-console.log(converteAlgarismosRomanos('IX'));
+console.log(converteAlgarismosRomanos('mmxxiv'));
 
 
 // Exercício 02
