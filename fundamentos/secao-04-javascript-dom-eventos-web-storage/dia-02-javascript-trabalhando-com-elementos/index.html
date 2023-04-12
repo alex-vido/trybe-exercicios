@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // COLOQUE SEU CÓDIGO AQUI
+      const createElement = (el) => document.createElement(el);
+      // ex 1
+      const varBody = document.querySelector('body');
+      const title = createElement('h1');
+      title.innerText = 'TrybeTrip - Agência de Viagens';
+      varBody.appendChild(title);
+      // ex 2
+      const varMain = createElement('main');
+      varMain.className = 'main-content';
+      varBody.appendChild(varMain);
+      // ex 3
+      const varSection = createElement('section');
+      varSection.className = 'main-content';
+      varMain.appendChild(varSection);
+      // ex 4
+      const varP = createElement('p');
+      varP.innerText = 'Sou o elemento P, filho do section';
+      varSection.appendChild(varP);
+      // ex 5
+      const varSection2 = createElement('section');
+      varSection2.className = 'left-content';
+      varMain.appendChild(varSection2);
+      // ex 6
+      const varSection3 = createElement('section');
+      varSection3.className = 'right-content';
+      varMain.appendChild(varSection3);
+      // ex 7
+      const varImg = createElement('img');
+      varImg.className = 'small-image';
+      varImg.src = 'https://picsum.photos/200';
+      varSection2.appendChild(varImg);
+      // ex 8
+      const varUl = createElement('ul');
+      for (let i = 1; i <= 10; i += 1) {
+        const varLi = document.createElement('li');
+        let varI = i;
+        varLi.innerText = varI;
+        varUl.appendChild(varLi)
+      }
+      varSection3.appendChild(varUl);
+      // ex 9
+      const h1One = createElement('h1');
+      const h1Two = createElement('h1');
+      const h1Three = createElement('h1');
+      varMain.appendChild(h1One);
+      varMain.appendChild(h1Two);
+      varMain.appendChild(h1Three);
+      
+    </script>
+  </body>
+</html>
