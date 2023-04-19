@@ -64,10 +64,7 @@
       format: 'DD/MM/YYYY',
       toString(date) {
         return moment(date).format('DD/MM/YYYY');
-      },
-      parse(dateString) {
-        return moment(dateString, 'DD/MM/YYYY').toDate();
-    }
+      }
   });
     </script>
 
