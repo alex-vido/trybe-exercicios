@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 1rem;
+}
+header p {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h1 {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.main-content {
+  text-align: left;
+}
+
+footer h3 {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+
+  body {
+    margin: 0 2rem;
+  }
+  header p {
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  li, .main-content p, footer p {
+    font-size: 1.6rem;
+  }
+
+  footer h3 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    margin: 0 7rem;
+  }
+  header p {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  li, .main-content p, footer p {
+    font-size: 2rem;
+  }
+
+  footer h3 {
+    font-size: 2.4rem;
+  }
+
+}
