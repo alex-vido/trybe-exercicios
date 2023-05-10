@@ -66,13 +66,32 @@ const countries = [
   }
 ];
 
+// Exercício 01
+
 const expectedSumPopulation = 120797034;
 const getPopulation = countries.reduce((acc, curr) => acc + curr.population, 0);
 
 console.log(getPopulation === expectedSumPopulation);
+
+// Exercício 02
 
 const expectedSumArea = 4311757;
 const getTotalArea = countries.reduce((acc, curr) => acc + curr.area, 0);
 
 console.log(getTotalArea === expectedSumArea);
 
+// Exercício 03
+
+const expectedLongestName = {
+  name: 'American Samoa',
+  region: 'Oceania',
+  currencies: [ { code: 'USD', name: 'United States Dollar' } ],
+  capital: 'Pago Pago',
+  population: 55197,
+  area: 199
+}
+const longestName = countries.reduce((acc, curr) => acc.name.length > curr.name.length ? acc : curr);
+
+console.log(longestName);
+
+// Exercício 04
