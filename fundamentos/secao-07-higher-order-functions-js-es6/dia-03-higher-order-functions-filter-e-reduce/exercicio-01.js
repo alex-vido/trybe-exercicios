@@ -95,3 +95,14 @@ const longestName = countries.reduce((acc, curr) => acc.name.length > curr.name.
 console.log(longestName);
 
 // Exercício 04
+
+const names = [
+  'Aanemarie', 'Adervandes', 'Akifusa',
+  'Abegildo', 'Adicellia', 'Aladonata',
+  'Abeladerco', 'Adieidy', 'Alarucha',
+];
+const expectedResult = 20;
+const countA = names.forEach((name) => {
+  name.reduce((acc, curr) => curr.toLowerCase() === 'a' ? acc + 1 : acc)
+  return acc
+});
