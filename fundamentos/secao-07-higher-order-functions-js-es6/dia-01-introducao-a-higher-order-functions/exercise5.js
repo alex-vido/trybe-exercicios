@@ -1,20 +1,18 @@
 const books = require('./books');
 
 const expectedResult = 'Duna';
-const smallerName = (books) => {
+
+const smallerName = (ar) => {
   let nameBook;
   // escreva aqui o seu código
-  books.forEach(book => {
-    if (typeof nameBook === 'unfedined') {
+  ar.forEach((book) => {
+    if (typeof nameBook === 'undefined') {
       nameBook = book.name;
     }
-    if(nameBook > book.name) {
+    else {
+      if (nameBook.length > book.name.length) {
       nameBook = book.name;
+      }
     }
-    nameBook
-  });
-  // Variável nameBook que receberá o valor do menor nome;
-  return nameBook;
-}
-
-console.log(smallerName(books));
+  })
+  
