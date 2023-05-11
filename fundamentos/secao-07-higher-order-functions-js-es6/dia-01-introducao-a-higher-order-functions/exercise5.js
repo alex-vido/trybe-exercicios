@@ -1,6 +1,7 @@
 const books = require('./books');
 
 const expectedResult = 'Duna';
+
 const smallerName = (ar) => {
   let nameBook;
   // escreva aqui o seu código
@@ -15,8 +16,3 @@ const smallerName = (ar) => {
     }
   })
   
-  // Variável nameBook que receberá o valor do menor nome;
-  return nameBook;
-}
-
-console.log(smallerName(books));
